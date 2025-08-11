@@ -1,8 +1,8 @@
 // Replace with your OpenWeatherMap API key
-const WEATHER_API_KEY = '09b06017df047e05ce0fb7926c4a0cef'; // Get a free API key from https://openweathermap.org/api
+const WEATHER_API_KEY = 'Your_own_API_Key'; // Get a free API key from https://openweathermap.org/api
 
 // Replace with your Gemini API key
-const GEMINI_API_KEY = 'AIzaSyC26y7lNNEAUn07jPLiDQy0DY9W2Widtvk'; // Replace with your actual Gemini API key
+const GEMINI_API_KEY = 'Your_own_API_key'; // Replace with your actual Gemini API key
 
 // Emoji mapping based on weather conditions
 const weatherEmojis = {
@@ -210,3 +210,4 @@ async function sendMessage() {
         chatBody.scrollTop = chatBody.scrollHeight;
     }
 }
+
